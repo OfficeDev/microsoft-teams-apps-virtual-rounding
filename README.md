@@ -1,22 +1,4 @@
-# Virtual Rounding using Microsoft Teams v2
-_Updated 4/15/2020_
-
-Version 2 Scripts, Flows, and PowerApps are all ready for use. This documentation will be improved over the next few days.
-
-Version 2 includes the following improved features:
-* Ability to invite family/friends
-* Unified SharePoint List that contains all rooms and links
-   - With views for each sublocation/location still added as tabs in Teams (optional)
-* PowerApps for:
-   - One click join for Patient Rooms
-   >![Teams Policy](/v2/Documentation/Images/PatientJoinApp.png)
-   >![Teams Policy](/v2/Documentation/Images/PatientJoinApp2.png)
-   - Meeting Join and Configuration for Providers
-   >![Teams Policy](/v2/Documentation/Images/VRApp1.png)
-   >![Teams Policy](/v2/Documentation/Images/VRApp2.png)
-   >![Teams Policy](/v2/Documentation/Images/VRApp3.png)
-
-For deployment assistance, questions or comments, please fill out [this form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR6mlTNdIzWRKq7zcu5h9FqNUMVoxSU0yS0hCSVhKMkxRREZaVE1IRU8wVy4u). Someone from Microsoft will reach out as soon as possible.
+# Virtual Rounding using Microsoft Teams
 
 ## Overview
 
@@ -73,20 +55,20 @@ Doctors will not be directly invited to any meetings, but instead have access to
 Create Policies in the Microsoft Teams Admin Center matching the below policies. The screenshots below are recommended configuration, but you should configure to your organization's policy/needs.
 
 ### Teams Policy
-![Teams Policy](/v2/Documentation/Images/TeamsPolicy.png)
+![Teams Policy](/Documentation/Images/TeamsPolicy.png)
 ### Meeting Policy
-![Meeting Policy1](/v2/Documentation/Images/MeetingPolicy1.png)
-![Meeting Policy2](/v2/Documentation/Images/MeetingPolicy2.png)
+![Meeting Policy1](/Documentation/Images/MeetingPolicy1.png)
+![Meeting Policy2](/Documentation/Images/MeetingPolicy2.png)
 ### Live Events Policy
-![Live Events Policy](/v2/Documentation/Images/LiveEventsPolicy.png)
+![Live Events Policy](/Documentation/Images/LiveEventsPolicy.png)
 ### Messaging Policy
-![Messaging Policy](/v2/Documentation/Images/MessagingPolicy.png)
+![Messaging Policy](/Documentation/Images/MessagingPolicy.png)
 ### App Permission Policy
-![App Permission Policy](/v2/Documentation/Images/AppPermissionPolicy.png)
+![App Permission Policy](/Documentation/Images/AppPermissionPolicy.png)
 ### App Setup Policy
-![App Setup Policy](/v2/Documentation/Images/AppSetupPolicy.png)
+![App Setup Policy](/Documentation/Images/AppSetupPolicy.png)
 ### Calling Policy
-![Calling Policy](/v2/Documentation/Images/CallingPolicy.png)
+![Calling Policy](/Documentation/Images/CallingPolicy.png)
 
 ## Application Registration
 
@@ -223,6 +205,7 @@ We strongly recommend managing the devices with Intune MDM and enabling kiosk mo
 ## Conditional Access Policies
 
 We strongly recommend applying a conditional access policy to the Azure AD Group used in _Patient Room Account Setup_ (contains all Patient Room accounts). This policy should limit sign ins to either Intune Managed Devices or specific trusted IPs. This is to limit the risk of the account becoming compromised and a third party logging into an ongoing patient meeting.
+
 
 ## Contributing
 
