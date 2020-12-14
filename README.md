@@ -1,4 +1,18 @@
 # Virtual Rounding using Microsoft Teams
+---
+page_type: sample
+languages:
+- PowerApps
+products:
+- office-teams
+description: Allows healthcare workers to interact with patients in their rooms through Teams
+urlFragment: microsoft-teams-app-virtual-rounding
+---
+
+# Virtual Rounding App Template
+
+| [Documentation](https://github.com/OfficeDev/microsoft-teams-apps-virtual-rounding/wiki/Deployment-Guide) | [Deployment guide](https://github.com/OfficeDev/microsoft-teams-apps-virtual-rounding/wiki/Deployment-Guide) | [Solution Design](https://github.com/OfficeDev/microsoft-teams-apps-virtual-rounding/wiki/Solution-Design) |
+| ---- | ---- | ---- |
 
 ## Overview
 
